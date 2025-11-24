@@ -92,8 +92,7 @@ export default function mostrarRegistro() {
         correo,
         fecha,
         telefono,
-        ganados: 0,
-        perdidos: 0,
+        favoritos: [],
         fechaRegistro: new Date().toISOString()
       });
       

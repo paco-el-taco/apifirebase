@@ -2,6 +2,7 @@ import mostrarLogout from "./componentes/logout";
 import mostrarLogin from "./componentes/login";
 import mostrarRegistro from "./componentes/registro";
 import mostrarHome from "./componentes/home";
+import mostrarOriginal from "./componentes/original";
 import './style.css';
 
 
@@ -18,7 +19,8 @@ document.getElementById("menu").innerHTML = `
 `;
 document.getElementById("menuHome").addEventListener("click",
 mostrarHome);
-
+document.getElementById("menuOriginal").addEventListener("click",
+mostrarOriginal);
 document.getElementById("menuLogout").addEventListener("click",
 mostrarLogout);
 mostrarHome()
